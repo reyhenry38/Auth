@@ -21,3 +21,6 @@ module.exports = function (app) {
 
 
 };
+
+//Routes for logging out
+
