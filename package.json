@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/reyhenry38/Auth/issues"
   },
-  "homepage": "https://github.com/reyhenry38/Auth#readme"
+  "homepage": "https://github.com/reyhenry38/Auth#readme",
+  "dependencies": {
+    "node": "^9.5.0"
+  }
 }
