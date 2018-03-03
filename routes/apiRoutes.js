@@ -24,3 +24,7 @@ module.exports = function (app) {
 
 //Routes for logging out
 
+// app.get("/logout", (res, res)=> {
+//     if(!req.json({});
+//         res.json({}))
+// })
