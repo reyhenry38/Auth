@@ -31,11 +31,11 @@ passport.use(new LocalStrategy(
 ));
 
 passport.serializeUser(function (user, cb) {
-    cb(null, obj);
+    cb(null, user);
 });
 
-passport.deserializeUser(function (id, cb) {
-    cb(null, obj);
+passport.deserializeUser(function (user, cb) {
+    cb(null, user);
 });
 
 //export the passport
